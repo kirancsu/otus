@@ -30,9 +30,9 @@ File wikipedia_e_20140913.11.tsv is used as input
 ```
 - Least requested article of the day is: E!E
 ```
-
-- Top 5 categories for the day
 ```
+- Top 5 categories for the day
+
                                     categories count
 9899                         All_stub_articles  8777
 55702                            Living_people  5285
