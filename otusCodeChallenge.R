@@ -97,10 +97,10 @@ for(catLen in 1:cat_length){
 }
 
 
-myTest <- head(categories,1)
+#myTest <- head(categories,1)
 
-df <- data.frame(matrix(unlist(myTest)),stringsAsFactors=FALSE)
-head(df,1)
+#df <- data.frame(matrix(unlist(myTest)),stringsAsFactors=FALSE)
+#head(df,1)
 
 nrow(splitCatgs)
 testing <- splitCatgs
@@ -110,18 +110,21 @@ df2 <- aggregate(testing[c("count")],by=list(testing$categories), FUN=sum, na.rm
 colnames(df2) <- c("categories", "count")
 orderedCatgByCount <- df2[order(df2$count,decreasing = TRUE),c(1,2)]
 
-#head(orderedCatgByCount,5)
+print("Top 5 categories for the day:")
+head(orderedCatgByCount,5)
 
 
 #show(df3)
 
 #Step 4 Which hour had the most requests? How many? Which article?
+print("Which hour had the most requests? How many? Which article?")
 print(paste("The hour that has most requests is: ",mostRequested$fileName, sep=""))
 print(paste("Number of requests in that hour: ", mostRequested$numRequests,sep = ""))
 print(paste("Most requested Article of that hour: ", mostRequested$title,sep = ""))
 
 
 #Step 5 Which hour had the least requests? How many? Which article?
+print("Which hour had the least requests? How many? Which article?")
 print(paste("The hour that has least requests is: ",leastRequested$fileName, sep=""))
 print(paste("Number of requests in that hour: ", leastRequested$numRequests,sep = ""))
 print(paste("Least requested Article of that hour: ", leastRequested$title,sep = ""))
