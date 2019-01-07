@@ -30,6 +30,7 @@ File wikipedia_e_20140913.11.tsv is used as input
 - Least requested article of the day is: E!E
 
 - Top 5 categories for the day
+```
                                     categories count
 9899                         All_stub_articles  8777
 55702                            Living_people  5285
@@ -37,7 +38,7 @@ File wikipedia_e_20140913.11.tsv is used as input
 28509                  Coordinates_on_Wikidata  4073
 95128 Wikipedia_articles_with_VIAF_identifiers  3927
 Most requested article of the day is English_alphabet"
-
+```
 
 - The hour that has most requests is wikipedia_e_20140913.11.tsv"
 - Number of requests in that hour: 960"
