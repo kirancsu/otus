@@ -24,10 +24,12 @@ Rscript otusCodeChallenge.R
 ## Sample output
 
 File wikipedia_e_20140913.11.tsv is used as input 
-
+```
 - Most requested article of the day is: English_alphabet
-
+```
+```
 - Least requested article of the day is: E!E
+```
 
 - Top 5 categories for the day
 ```
@@ -40,12 +42,15 @@ File wikipedia_e_20140913.11.tsv is used as input
 Most requested article of the day is English_alphabet"
 ```
 
-- The hour that has most requests is wikipedia_e_20140913.11.tsv"
-- Number of requests in that hour: 960"
-- Most requested Article of that hourEnglish_alphabet"
+```
+- The hour that has most requests is wikipedia_e_20140913.11.tsv
+- Number of requests in that hour: 960
+- Most requested Article of that hourEnglish_alphabet
+```
 
+```
 - The hour that has least requests is wikipedia_e_20140913.11.tsv
 - Number of requests in that hour: 1
 - Least requested Article of that hour: E!E
-
+```
 
