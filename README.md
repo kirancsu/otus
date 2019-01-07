@@ -1,5 +1,5 @@
 ## otus code challenge
-R program to reads wikipedia files organized hourly, cleans the data by removing na, null and empty strings and process the data to fetch the following analytics
+R program to read wikipedia files organized by hour, cleans the data by removing na, null and empty strings and process the data to fetch the following analytics
 - Most requested article for that day
 - Least requested article for that day
 - Top 5 categories for that day
